@@ -1,0 +1,160 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+html,body, .container-fluid, .sidebar2,.main-content{
+  height:100%;
+}
+.sidebar2 {
+    background-color: #1a1f27;
+    padding: 0px !important;
+    box-shadow: 2px 2px 5px #262a35;
+    z-index: 1000;
+    height: 100%;
+    position: fixed;
+
+}
+.logo {
+    min-height:200px;
+    color:#afb1b5;
+}
+.logo>img {
+    margin-top: 30px;
+    padding: 1px;
+    border: 3px solid #F17153;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.btn.Add-friend
+{
+  background-color:#F17153;
+<!--#e65e50-->
+  border: 1px solid #50e6df;
+  color:#eee;
+}
+.btn.Add-friend:hover,.btn.Add-friend:active,.btn.Add-friend:active:focus,.btn.Add-friend:active:hover,.btn.Add-friend:visited,.btn.Add-friend:focus
+{
+  background-color:#F17153;
+  border: 0.5px solid transparent;
+  color:white;
+  outline:none;
+  font-weight:600;
+}
+.coins
+{
+  display:inline-block;
+  font-size:20px;
+font-family:'"Helvetica Neue",Helvetica,Arial,sans-serif';
+}
+.list {
+    color: #eee;
+    list-style: none;
+    padding-left: 0px;
+}
+li:nth-child(odd) {
+    background-color:#13171d;
+}
+li>i {margin-right:15px;
+}
+.list> li {
+    padding: 15px 0px 15px 40px;
+    font-size: 16px;
+    font-weight:lighter;
+}
+.list>li:hover {
+
+    color: white;
+    box-shadow:1px 1px 10px 1px #50e6df inset;
+    transition: padding-left 0.2s linear;
+    padding-left: 60px;
+
+}
+body
+{
+    background-image: url("http://allgames4.me/wp-content/uploads/2014/11/counter_strike_source_.jpg");
+    background-size:cover;
+    
+   }
+.main-content{ 
+    color:#fff; 
+    text-align:center;
+}
+section{
+        height: 500px;
+        width: 800px;
+        margin: auto;
+        margin-top: 80px;
+    }
+  
+    #test{
+        font-size: 24px;
+        font-family: sans-serif;
+    }
+    #status{
+        text-align: center;
+    }
+    .hrwidth{
+        width: 70px;
+    }
+    #test #btn1{
+        float: right;
+        margin: 50px 60px 0px 0px;
+        color: white;
+        background-color: red;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        border-style: none;
+    }
+    #status h2{
+        color:red;
+    }
+
+
+   #btn2{
+        float: left;
+        margin: 50px 60px 0px 0px;
+        color: white;
+        background-color: red;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        width: 110px;
+        height: 40px;
+        border-radius: 5px;
+        border-style: none;
+    }
+
+
+   #test input {
+      -webkit-appearance: none; /* remove default */
+      display: inline-block;
+        margin-left: 70px;
+      width: 20px;
+      height: 20px;
+      border-radius: 12px;
+      cursor: pointer;
+      vertical-align: middle;
+      box-shadow: hsla(0,0%,100%,.15) 0 1px 1px, inset hsla(0,0%,0%,.5) 0 0 0 1px;
+      background-color: transparent;
+      background-image: -webkit-radial-gradient( hsla(0,0%,20%,5) 0%, hsla(0,0%,20%,1) 15%, hsla(200,100%,60%,.3) 28%, hsla(200,100%,30%,0) 60% );
+      background-repeat: no-repeat;
+      -webkit-transition: background-position .15s cubic-bezier(.8, 0, 1, 1),
+      -webkit-transform .25s cubic-bezier(.8, 0, 1, 1);
+      outline: none;
+    }
+    #test input:checked {
+      -webkit-transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),
+        -webkit-transform .25s cubic-bezier(0, 0, .2, 1);
+    }
+    #test input:active {
+      -webkit-transform: scale(1.5);
+      -webkit-transition: -webkit-transform .1s cubic-bezier(0, 0, .2, 1);
+    }
+
